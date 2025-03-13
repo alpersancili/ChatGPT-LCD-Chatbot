@@ -5,7 +5,7 @@ import openai
 import gradio as gr
 
 # Replace with your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 # Connect to Arduino (Change COM3 to your Arduino port)
 arduino = serial.Serial(port="COM3", baudrate=9600, timeout=1)  
